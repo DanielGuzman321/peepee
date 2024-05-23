@@ -499,7 +499,6 @@ section:first-child {
 .button-cta-m.pink,
 .button-cta-s.pink {
     --tw-bg-opacity: 1;
-    background-color: rgb(182 182 182/var(--tw-bg-opacity))
 }
 
 .button-cta-m.pink:hover,
