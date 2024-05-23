@@ -1,3 +1,5 @@
+
+@import url('https://fonts.cdnfonts.com/css/genty-demo');
 *,
 ::before,
 ::after {
@@ -18,7 +20,6 @@ html {
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
     font-feature-settings: normal;
     font-variation-settings: normal
 }
@@ -45,6 +46,8 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Genty Demo', sans-serif;
+                                                
     font-size: inherit;
     font-weight: inherit
 }
@@ -78,6 +81,12 @@ sup {
     position: relative;
     vertical-align: baseline
 }
+
+p {
+    color: white;
+    font-family: "Neucha", cursive;
+    font-size: 20px;
+  }
 
 sub {
     bottom: -.25em
@@ -259,7 +268,7 @@ body {
     font-weight: 400;
     line-height: 175%;
     --tw-bg-opacity: 1;
-    background-color: rgb(84 212 255);
+    background-color: #509624;
     --tw-text-opacity: 1;
     color: rgb(19 38 74/var(--tw-text-opacity));
     -webkit-font-smoothing: antialiased;
@@ -288,101 +297,6 @@ section:first-child {
     }
 }
 
-*,
-::before,
-::after {
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: ;
-    --tw-pan-y: ;
-    --tw-pinch-zoom: ;
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: ;
-    --tw-slashed-zero: ;
-    --tw-numeric-figure: ;
-    --tw-numeric-spacing: ;
-    --tw-numeric-fraction: ;
-    --tw-ring-inset: ;
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(59 130 246 / 0.5);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-blur: ;
-    --tw-brightness: ;
-    --tw-contrast: ;
-    --tw-grayscale: ;
-    --tw-hue-rotate: ;
-    --tw-invert: ;
-    --tw-saturate: ;
-    --tw-sepia: ;
-    --tw-drop-shadow: ;
-    --tw-backdrop-blur: ;
-    --tw-backdrop-brightness: ;
-    --tw-backdrop-contrast: ;
-    --tw-backdrop-grayscale: ;
-    --tw-backdrop-hue-rotate: ;
-    --tw-backdrop-invert: ;
-    --tw-backdrop-opacity: ;
-    --tw-backdrop-saturate: ;
-    --tw-backdrop-sepia:
-}
-
-::backdrop {
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: ;
-    --tw-pan-y: ;
-    --tw-pinch-zoom: ;
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: ;
-    --tw-slashed-zero: ;
-    --tw-numeric-figure: ;
-    --tw-numeric-spacing: ;
-    --tw-numeric-fraction: ;
-    --tw-ring-inset: ;
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(59 130 246 / 0.5);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-blur: ;
-    --tw-brightness: ;
-    --tw-contrast: ;
-    --tw-grayscale: ;
-    --tw-hue-rotate: ;
-    --tw-invert: ;
-    --tw-saturate: ;
-    --tw-sepia: ;
-    --tw-drop-shadow: ;
-    --tw-backdrop-blur: ;
-    --tw-backdrop-brightness: ;
-    --tw-backdrop-contrast: ;
-    --tw-backdrop-grayscale: ;
-    --tw-backdrop-hue-rotate: ;
-    --tw-backdrop-invert: ;
-    --tw-backdrop-opacity: ;
-    --tw-backdrop-saturate: ;
-    --tw-backdrop-sepia:
-}
 
 .container {
     width: 100%;
@@ -429,43 +343,38 @@ section:first-child {
 }
 
 .heading-h2 {
-    font-family: Titan One, cursive;
+    font-family: 'Genty Demo', sans-serif;
     font-size: 54px;
     font-weight: 400;
     line-height: 110%;
     --tw-text-opacity: 1;
-    color: rgb(246 116 239/var(--tw-text-opacity));
-    text-shadow: 0 4px 0 #000;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    text-shadow: 0 7px 0 #000;
+
 }
 
 .heading-h3 {
-    font-family: Titan One, cursive;
-    font-size: 40px;
+    font-family: 'Genty Demo', sans-serif;
+    font-size: 54px;
     font-weight: 400;
     line-height: 110%;
     --tw-text-opacity: 1;
-    color: rgb(246 116 239/var(--tw-text-opacity));
-    text-shadow: 0 4px 0 #000;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    text-shadow: 0 7px 0 #000;
 }
 
 .heading-h4 {
-    font-family: Titan One, cursive;
+    font-family: 'Genty Demo', sans-serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 110%;
+    color: white;
     --tw-text-opacity: 1;
-    color: rgb(246 116 239/var(--tw-text-opacity));
     text-shadow: 0 1px 0 #000;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000
 }
 
 .heading-h5 {
-    font-family: Titan One, cursive;
+    font-family: wfont_ee3942_1c190ea6b91e4b5da26144381f1f6a4b,wf_1c190ea6b91e4b5da26144381,orig_genty_demo_regular;
     font-size: 24px;
     font-weight: 400;
     line-height: 110%
@@ -540,7 +449,7 @@ section:first-child {
     --tw-translate-y: 3px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     --tw-bg-opacity: 1;
-    background-color: rgb(246 116 239/var(--tw-bg-opacity));
+    background-color: rgb(182 182 182/var(--tw-bg-opacity));
     --tw-shadow: 0 0 #0000;
     --tw-shadow-colored: 0 0 #0000;
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
@@ -560,9 +469,9 @@ section:first-child {
     border-radius: 16px;
     border-width: 3px;
     --tw-border-opacity: 1;
-    border-color: rgb(0 0 0/var(--tw-border-opacity));
+    border-color:white;
     --tw-bg-opacity: 1;
-    background-color: rgb(253 213 60/var(--tw-bg-opacity));
+    background-color: transparent;
     padding-left: 24px;
     padding-right: 24px;
     text-align: center;
@@ -571,7 +480,7 @@ section:first-child {
     font-weight: 500;
     line-height: 130%;
     --tw-text-opacity: 1;
-    color: rgb(0 0 0/var(--tw-text-opacity));
+    color: white;
     transition-property: all;
     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     transition-duration: 200ms
@@ -581,7 +490,7 @@ section:first-child {
     --tw-translate-y: 3px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     --tw-bg-opacity: 1;
-    background-color: rgb(246 116 239/var(--tw-bg-opacity));
+    background-color: rgb(182 182 182/var(--tw-bg-opacity));
     --tw-shadow: 0 0 #0000;
     --tw-shadow-colored: 0 0 #0000;
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
@@ -590,13 +499,13 @@ section:first-child {
 .button-cta-m.pink,
 .button-cta-s.pink {
     --tw-bg-opacity: 1;
-    background-color: rgb(246 116 239/var(--tw-bg-opacity))
+    background-color: rgb(182 182 182/var(--tw-bg-opacity))
 }
 
 .button-cta-m.pink:hover,
 .button-cta-s.pink:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(253 213 60/var(--tw-bg-opacity))
+    background-color: rgb(182 182 182/var(--tw-bg-opacity))
 }
 
 .pointer-events-none {
@@ -768,6 +677,9 @@ section:first-child {
 }
 
 .mt-md {
+    font-weight: bold;
+    color: #f1f1f1;
+    font-family: "Neucha", cursive;
     margin-top: 24px
 }
 
@@ -1276,7 +1188,7 @@ section:first-child {
 
 .header.header__fixed {
     --tw-bg-opacity: 1;
-    background-color: rgb(115 220 255/var(--tw-bg-opacity))
+    background-color: rgb(58 173 45);
 }
 
 .header__menu-list-active {
@@ -1387,41 +1299,36 @@ section:first-child {
 
 @media(min-width:768px) {
     .md\:heading-h1 {
-        font-family: Titan One, cursive;
+        font-family: 'Genty Demo', sans-serif;
+                                                
         font-size: 72px;
         font-weight: 400;
         line-height: 110%;
         --tw-text-opacity: 1;
-        color: rgb(246 116 239/var(--tw-text-opacity));
+        color: rgb(255 255 255/var(--tw-text-opacity));
         text-shadow: 0 7px 0 #000;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: #000
     }
 }
 
 @media(min-width:1000px) {
     .lg\:heading-hero {
-        font-family: Titan One, cursive;
-        font-size: 77px;
+        font-family: 'Genty Demo', sans-serif;
+                                                
+        font-size: 107px;
         font-weight: 400;
         line-height: 90%;
         --tw-text-opacity: 1;
-        color: rgb(246 116 239/var(--tw-text-opacity));
-        text-shadow: 0 7px 0 #000;
-        -webkit-text-stroke-width: 3px;
-        -webkit-text-stroke-color: #000
+        color: rgb(255 255 255/var(--tw-text-opacity));
     }
 
     .lg\:heading-h2 {
-        font-family: Titan One, cursive;
+        font-family: 'Genty Demo', sans-serif;
         font-size: 54px;
         font-weight: 400;
         line-height: 110%;
         --tw-text-opacity: 1;
-        color: rgb(246 116 239/var(--tw-text-opacity));
-        text-shadow: 0 4px 0 #000;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: #000
+        color: rgb(255 255 255/var(--tw-text-opacity));
+        text-shadow: 0 7px 0 #000;
     }
 }
 
@@ -1432,12 +1339,12 @@ section:first-child {
 
 .hover\:bg-pink:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(246 116 239/var(--tw-bg-opacity))
+    background-color: rgb(182 182 182/var(--tw-bg-opacity))
 }
 
 .hover\:text-pink:hover {
     --tw-text-opacity: 1;
-    color: rgb(246 116 239/var(--tw-text-opacity))
+    color: rgb(182 182 182/var(--tw-text-opacity))
 }
 
 .hover\:shadow-none:hover {
